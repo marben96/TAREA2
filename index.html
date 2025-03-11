@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>marben</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"/>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .star-animation {
+            opacity: 0;
+            transform: scale(0);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header Section -->
+    <header class="bg-blue-600 text-white star-animation">
+        <div class="container mx-auto px-4 py-6 flex justify-between items-center">
+            <div class="flex items-center space-x-4">
+                <img alt="Chatbox logo" class="w-10 h-10" height="40" src="imagenes/emoticon.png" width="40"/>
+                <h1 class="text-2xl font-bold">Chatbox</h1>
+            </div>
+            <nav class="hidden md:flex space-x-8">
+                <a class="hover:underline" href="#">Hogar</a>
+                <a class="hover:underline" href="#">Funciones</a>
+                <a class="hover:underline" href="#">Precios</a>
+                <a class="hover:underline" href="#">Contacto</a>
+            </nav>
+            <div class="hidden md:flex space-x-4">
+                <button class="bg-white text-blue-600 px-4 py-2 rounded-full hover-effect">Iniciar sesión</button>
+            </div>
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="bg-blue-600 text-white text-center py-20 star-animation">
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
+            <div class="md:w-1/2 text-left">
+                <h2 class="text-4xl font-bold mb-4">Obtenga la mejor experiencia al enviar mensajes.</h2>
+            </div>
+            <div class="md:w-1/2 text-right">
+                <p class="text-lg mb-8">Comuníquese con su equipo y clientes en tiempo real con nuestra plataforma segura y fácil de usar.</p>
+                <div class="flex justify-end">
+                    <button class="bg-white text-blue-600 px-6 py-3 rounded-full flex items-center space-x-2 hover-effect">
+                        <img alt="Chatbox logo" class="w-10 h-10" src="imagenes/manzana.png"/>
+                        <span>Empezar</span>
+                    </button>
+                </div><br>
+                <div class="flex justify-end">
+                    <button class="bg-blue-600 text-white border-2 border-white px-6 py-3 rounded-full flex items-center space-x-2 hover-effect">
+                        <img alt="Chatbox logo" class="w-10 h-10" src="imagenes/play.png"/>
+                        <span>Empezar</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sección de Imagen Centrada con Fondo Dividido -->
+    <section class="relative flex justify-center items-center h-[700px] px-24 star-animation">
+        <div class="absolute top-0 left-0 w-full h-1/2 bg-blue-600"></div>
+        <div class="relative z-10">
+            <img alt="Chatbox logo" class="w-[700px] h-[700px]" src="imagenes/chatbox 1.png "/>
+        </div>
+    </section>
+    <br><br>
+    <!-- Sección de Títulos en Línea -->
+    <section class="flex justify-center space-x-8 py-8 bg-white star-animation">
+        <h2 class="text-gray-600 font-bold text-xl">Rayas</h2>
+        <h2 class="text-gray-600 font-bold text-xl">Pago posterior</h2>
+        <h2 class="text-gray-600 font-bold text-xl">Esperanza</h2>
+        <h2 class="text-gray-600 font-bold text-xl">Spluk</h2>
+        <h2 class="text-gray-600 font-bold text-xl">Atenta</h2>
+    </section>
+    <div class="flex justify-center">
+        <button class="bg-gray-300 text-blue-500 px-6 py-3 rounded-full hover-effect">Recomendados</button>
+    </div>
+    <section class="text-center mb-16 star-animation">
+        <h3 class="text-2xl font-bold mb-4">Razones por las que deberías elegir <span class="text-blue-600">Chatbox</span>.</h3>
+        <p class="text-gray-600 mb-8">Comuníquese de manera más eficiente utilizando Chatbox.</p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-blue-600 text-white p-8 rounded-lg">
+                <i class="fas fa-check-circle text-4xl mb-4"></i>
+                <h4 class="text-xl font-bold mb-2">Fácil de usar</h4>
+                <p>Nuestra plataforma es fácil de usar y navegar.</p>
+            </div>
+            <div class="bg-gray-100 p-8 rounded-lg">
+                <i class="fas fa-clock text-4xl text-blue-600 mb-4"></i>
+                <h4 class="text-xl font-bold mb-2">Tiempo real</h4>
+                <p>Comuníquese en tiempo real sin retrasos.</p>
+            </div>
+            <div class="bg-gray-100 p-8 rounded-lg">
+                <i class="fas fa-lock text-4xl text-blue-600 mb-4"></i>
+                <h4 class="text-xl font-bold mb-2">Seguridad &amp; Privada</h4>
+                <p>Sus mensajes son seguros y privados.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Statistics Section -->
+    <div class="flex items-center justify-between px-16 star-animation">
+        <section class="text-left w-1/2">
+            <h3 class="text-2xl font-bold mb-4">Comuníquese de manera<br> más eficiente utilizando <span class="text-blue-600">Chatbox</span></h3>
+            <p>envía mensajes fácilmente utilizando solo aplicaciones móviles o de escritorio,<br> y con una miríada de características que pueden hacer que <br>tu experiencia sea diferente a la de otras aplicaciones.</p>
+            <div class="flex space-x-8">
+                <div>
+                    <h4 class="text-4xl font-bold">1M+</h4>
+                    <p class="text-gray-600">Usuarios</p>
+                </div>
+                <div>
+                    <h4 class="text-4xl font-bold">2M+</h4>
+                    <p class="text-gray-600">Mensajes enviados</p>
+                </div>
+                <div>
+                    <h4 class="text-4xl font-bold">2+</h4>
+                    <p class="text-gray-600">Años en el negocio</p>
+                </div>
+            </div>
+        </section>
+        <img alt="Chatbox logo" class="w-[700px] h-[700px] star-animation" src="imagenes/chatbox2.png"/>
+    </div>
+    <br><br>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 star-animation">
+        <div class="bg-gray-100 p-8 rounded-lg">
+            <h4 class="text-lg font-bold mb-4">
+                <img alt="Chatbox logo" class="w-[700px] h-[700px]" src="imagenes/chatbox3.png"/>
+            </h4>
+            <ul class="space-y-4">
+                <li class="flex items-center space-x-4">
+                    <div>
+                        <h5 class="font-bold"></h5>
+                        <p class="text-gray-600"></p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="bg-white p-8 rounded-lg text-center flex flex-col items-center">
+            <h1 class="text-4xl font-bold mb-6 rotate-360 mt-16 star-animation">Enviar mensajes en <span class="text-blue-600">Tiempo real</span> sin demora entre nosotros</h1>
+            <h2 class="text-xl text-gray-600 mb-10 max-w-lg rotate-360 mt-8">Nuestra plataforma garantiza que sus mensajes se entreguen de manera instantánea y sin demoras.</h2>
+            <button class="bg-blue-600 text-white px-6 py-3 rounded-full text-lg mt-20 hover-effect">Empezar</button>
+        </div>
+    </div>
+    <div class="w-full flex justify-center relative">
+        <div class="bg-blue-600 w-[90%] py-16 flex justify-center rounded-t-lg relative">
+            <img alt="Chatbox logo" class="w-[850px] h-[850px] relative -mb-20" src="imagenes/chatbox4.png"/>
+        </div>
+    </div>
+    <!-- Fondo negro -->
+    <footer class="bg-black text-gray-600 py-16">
+        <div class="container mx-auto px-2">
+            <div class="flex justify-between items-center w-full">
+                <h2 class="text-lg font-bold">¿Quieres estar conectado?</h2>
+                <div class="flex space-x-4">
+                    <button class="bg-blue-600 px-6 py-3 rounded-full flex items-center space-x-2 hover-effect">
+                        <img alt="Chatbox logo" class="w-10 h-10" src="manzana.png"/>
+                        <span class="text-white">Contacta con nosotros</span>
+                    </button>
+                    <button class="bg-blue-600 px-6 py-3 rounded-full flex items-center space-x-2 hover-effect">
+                        <img alt="Chatbox logo" class="w-10 h-10" src="play.png"/>
+                        <span class="text-white">Contacta con nosotros</span>
+                    </button>
+                </div>
+            </div>
+            <br>
+            <hr class="border-gray-600">
+            <br>
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-4">
+                    <img alt="Chatbox logo" class="w-10 h-10" height="40" src="imagenes/emoticon.png" width="40"/>
+                    <h1 class="text-2xl font-bold">Chatbox</h1>
+                </div>
+                <nav class="hidden md:flex space-x-8"></nav>
+            </div>
+            <br>
+            <div class="flex justify-between">
+                <div class="text-left">
+                    <p>Plataforma utilizada para enviar mensajes<br> con una gran cantidad de funciones,<br> priorizando la experiencia del usuario</p>
+                    <br>
+                    <p>mail@chatbox.com</p>
+                </div>
+                <div class="grid grid-cols-3 gap-8 text-right">
+                    <div>
+                        <h3>Hogar</h3>
+                        <h3>Sobre nosotras</h3>
+                        <h3>Descargar</h3>
+                    </div>
+                    <div>
+                        <h3>Características</h3>
+                        <h3>Empezar</h3>
+                        <h3>Política de privacidad</h3>
+                    </div>
+                    <div>
+                        <h3>Social Media</h3>
+                        <h3>Instagram</h3>
+                        <h3>LinkedIn</h3>
+                        <h3>Comunidad</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-8">
+                <p>Todos los derechos reservados por Chatbox</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Animación de entrada en forma de estrella
+        const elements = document.querySelectorAll('.star-animation');
+
+        gsap.to(elements, {
+            duration: 1,
+            opacity: 1,
+            scale: 1,
+            stagger: {
+                amount: 0.5,
+                from: "center"
+            },
+            ease: "back.out(1.7)"
+        });
+    </script>
+</body>
+</html>
