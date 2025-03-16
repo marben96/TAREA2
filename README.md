@@ -1,3 +1,4 @@
+trabajo de bhuo https://clever-buttercream-f6887a.netlify.app/
  1. Configuración inicial (head)
 En el <head>, se incluyen los siguientes elementos:
 •	Codificación y responsividad
