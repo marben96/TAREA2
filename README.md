@@ -13,11 +13,7 @@ CopiarEditar
 El título que aparecerá en la pestaña del navegador.
 •	CDNs de estilos y scripts
 html
-CopiarEditar
-<script src="https://cdn.tailwindcss.com"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"/>
+
 o	Tailwind CSS: Para estilos rápidos y personalizados.
 o	GSAP: Para animaciones en la página.
 o	Font Awesome: Para iconos.
